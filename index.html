@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="./styles/style.css">
+  </head>
+  <body>
+    <!-- 
+      TODO: Save the time in local storage.
+      TODO: Make the page responsive.
+      TODO: Improve the footer so that it stays in the bottom of the page.
+      TODO: Keypress (Enter key to start) and (Backspace to stop) 
+     -->
+    <h1>Stopwatch Project &#9201;</h1>
+    <div class="main-container">
+      <div class="timer-container">
+        <div class="hours js-hours">
+          00 
+          <p class="mini-text">Hours</p>
+        </div>
+        <span class="colon">:</span>
+        <div class="minutes js-minutes">
+          00
+          <span class="mini-text">Minutes</span>
+        </div>
+        <span class="colon">:</span>
+        <div class="seconds js-seconds">
+          00
+          <span class="mini-text">Seconds</span>
+        </div>
+      </div>
+
+      <div class="btn-container">
+        <button class="start-btn js-start-btn">Start</button>
+        <button class="stop-btn js-stop-btn">Stop</button>
+        <button class="reset-btn js-reset-btn">Reset</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2024 kieldoescode. All rights reserved</p>
+    </footer>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
